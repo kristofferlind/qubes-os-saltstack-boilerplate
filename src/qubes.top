@@ -1,0 +1,6 @@
+user:
+  dom0:
+    - qubes.personal.browser
+    - qubes.personal.development
+    - qubes.work-company1.browser
+    - qubes.work-company1.development

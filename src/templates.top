@@ -1,0 +1,18 @@
+user:
+  dom0:
+    - packages.kristofferlind.qubes-video-companion.dom0
+    - templates.browser.create
+    - templates.development.create
+
+  template-browser:
+    - packages.base
+    - packages.kristofferlind.qubes-video-companion
+    - packages.kristofferlind.librewolf
+    - templates.browser.install
+
+  template-development:
+    - packages.base
+    - packages.kristofferlind.snap
+    - packages.kristofferlind.nix
+    - packages.kristofferlind.qubes-video-companion
+    - templates.development.install

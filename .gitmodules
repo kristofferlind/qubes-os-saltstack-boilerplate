@@ -1,0 +1,3 @@
+[submodule "src/packages/kristofferlind"]
+	path = src/packages/kristofferlind
+	url = git@github.com:kristofferlind/qubes-os-saltstack-packages.git

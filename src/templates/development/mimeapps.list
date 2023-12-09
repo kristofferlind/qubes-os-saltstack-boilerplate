@@ -1,0 +1,27 @@
+[Default Applications]
+inode/directory=thunar.desktop;
+
+# text
+text/csv=Vim.desktop;
+text/plain=Vim.desktop;
+application/xhtml+xml=Vim.desktop;
+application/json=Vim.desktop
+
+# URI scheme handlers
+text/html=qvm-open-in-vm.desktop;
+x-scheme-handler/http=qvm-open-in-vm.desktop;
+x-scheme-handler/https=qvm-open-in-vm.desktop;
+
+# images
+image/gif=qvm-open-in-dvm.desktop;
+image/jpeg=qvm-open-in-dvm.desktop;
+image/jpg=qvm-open-in-dvm.desktop;
+image/png=qvm-open-in-dvm.desktop;
+image/tiff=qvm-open-in-dvm.desktop;
+image/svg+xml=qvm-open-in-dvm.desktop;
+image/svg+xml-compressed=qvm-open-in-dvm.desktop;
+image/tiff=qvm-open-in-dvm.desktop;
+
+# other
+application/gzip=qvm-open-in-dvm.desktop;
+application/pdf=qvm-open-in-dvm.desktop;

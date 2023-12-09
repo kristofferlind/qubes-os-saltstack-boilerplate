@@ -1,0 +1,4 @@
+[*]
+insert_final_newline = true
+indent = 2
+indent_style = space

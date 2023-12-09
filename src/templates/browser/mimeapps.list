@@ -1,0 +1,27 @@
+[Default Applications]
+inode/directory=thunar.desktop;
+
+# text
+text/csv=librewolf.desktop;
+text/plain=librewolf.desktop;
+application/xhtml+xml=librewolf.desktop;
+application/json=librewolf.desktop
+
+# URI scheme handlers
+text/html=librewolf.desktop;
+x-scheme-handler/http=librewolf.desktop;
+x-scheme-handler/https=librewolf.desktop;
+
+# images
+image/gif=qvm-open-in-dvm.desktop;
+image/jpeg=qvm-open-in-dvm.desktop;
+image/jpg=qvm-open-in-dvm.desktop;
+image/png=qvm-open-in-dvm.desktop;
+image/tiff=qvm-open-in-dvm.desktop;
+image/svg+xml=qvm-open-in-dvm.desktop;
+image/svg+xml-compressed=qvm-open-in-dvm.desktop;
+image/tiff=qvm-open-in-dvm.desktop;
+
+# other
+application/gzip=qvm-open-in-dvm.desktop;
+application/pdf=qvm-open-in-dvm.desktop;
