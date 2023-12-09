@@ -1,18 +1,23 @@
 user:
   dom0:
     - packages.kristofferlind.qubes-video-companion.dom0
-    - templates.browser.create
+    - templates.browser.create # create browser template
     - templates.development.create
+    - templates.vault.create
 
-  template-browser:
+  template-browser: # configure browser template
     - packages.base
-    - packages.kristofferlind.qubes-video-companion
+    - packages.kristofferlind.qubes-video-companion # screenshare receiver
     - packages.kristofferlind.librewolf
     - templates.browser.install
 
   template-development:
     - packages.base
-    - packages.kristofferlind.snap
     - packages.kristofferlind.nix
-    - packages.kristofferlind.qubes-video-companion
+    - packages.kristofferlind.qubes-video-companion # screenshare sender
     - templates.development.install
+
+  template-vault:
+    - packages.base
+    - packages.kristofferlind.split-ssh.vault
+    - templates.vault.install

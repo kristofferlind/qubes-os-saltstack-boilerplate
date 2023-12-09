@@ -1,0 +1,21 @@
+[Default Applications]
+inode/directory=thunar.desktop;
+
+# URI scheme handlers
+text/html=qvm-open-in-vm.desktop;
+x-scheme-handler/http=qvm-open-in-vm.desktop;
+x-scheme-handler/https=qvm-open-in-vm.desktop;
+
+# images
+image/gif=qvm-open-in-vm.desktop;
+image/jpeg=qvm-open-in-vm.desktop;
+image/jpg=qvm-open-in-vm.desktop;
+image/png=qvm-open-in-vm.desktop;
+image/tiff=qvm-open-in-vm.desktop;
+image/svg+xml=qvm-open-in-vm.desktop;
+image/svg+xml-compressed=qvm-open-in-vm.desktop;
+image/tiff=qvm-open-in-vm.desktop;
+
+# other
+application/gzip=qvm-open-in-vm.desktop;
+application/pdf=qvm-open-in-vm.desktop;

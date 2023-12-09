@@ -2,5 +2,12 @@ user:
   dom0:
     - qubes.personal.browser
     - qubes.personal.development
+    - qubes.personal.vault
     - qubes.work-company1.browser
     - qubes.work-company1.development
+
+  development:
+    - packages.kristofferlind.split-ssh.client-appvm
+
+  work-company1-development:
+    - packages.kristofferlind.split-ssh.client-appvm

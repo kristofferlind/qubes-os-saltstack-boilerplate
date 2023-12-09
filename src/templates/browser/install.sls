@@ -5,10 +5,8 @@ templates_browser_uptodate:
 templates_browser_install:
   pkg.installed:
     - pkgs:
-      # audio for meetings
-      - pulseaudio-qubes
-      # allow passing audio/video devices for meetings
-      - qubes-usb-proxy
+      - pulseaudio-qubes # audio for meetings
+      - qubes-usb-proxy # allow passing audio/video devices for meetings
     - skip_suggestions: True
     - install_recommends: False
 
