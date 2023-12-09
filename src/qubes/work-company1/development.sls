@@ -4,7 +4,7 @@ qubes_work-company1_development_finalize_template:
 
 qubes_work-company1_development_qvm_present:
   qvm.present:
-    - name: development
+    - name: work-company1-development
     - template: template-development
     - label: blue
 
